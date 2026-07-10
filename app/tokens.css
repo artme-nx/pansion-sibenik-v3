@@ -1,0 +1,86 @@
+/* Design Tokens - Auto-generated */
+/* Do not edit directly - modify tokens.json instead */
+
+/* === PRIMITIVES === */
+:root {
+  --primitive-color-parchment-50: #FDF8EC;
+  --primitive-color-parchment-100: #F7EDD3;
+  --primitive-color-parchment-200: #EEDFB6;
+  --primitive-color-parchment-300: #E2CB92;
+  --primitive-color-parchment-400: #CDAE6C;
+  --primitive-color-burgundy-300: #A9505A;
+  --primitive-color-burgundy-500: #7A2732;
+  --primitive-color-burgundy-600: #611F28;
+  --primitive-color-burgundy-700: #4A171F;
+  --primitive-color-burgundy-900: #2C0D12;
+  --primitive-color-forest-400: #5C7256;
+  --primitive-color-forest-600: #3C5236;
+  --primitive-color-forest-700: #2A3C26;
+  --primitive-color-brass-300: #D8B968;
+  --primitive-color-brass-500: #B08A34;
+  --primitive-color-brass-700: #8A6B26;
+  --primitive-color-ink-700: #3A2A1E;
+  --primitive-color-ink-900: #241811;
+  --primitive-font-display: var(--font-cinzel), 'Cinzel', Georgia, serif;
+  --primitive-font-script: var(--font-tangerine), 'Tangerine', cursive;
+  --primitive-font-body: var(--font-cormorant), 'Cormorant Garamond', Georgia, serif;
+  --primitive-motion-duration-micro: 200ms;
+  --primitive-motion-duration-base: 400ms;
+  --primitive-motion-duration-reveal: 1100ms;
+  --primitive-motion-duration-draw: 1800ms;
+  --primitive-motion-ease-engrave: cubic-bezier(0.19, 1, 0.22, 1);
+  --primitive-motion-ease-settle: cubic-bezier(0.33, 1, 0.68, 1);
+}
+
+/* === SEMANTIC === */
+:root {
+  --background: #F7EDD3;
+  --foreground: #241811;
+  --card: #FDF8EC;
+  --card-foreground: #241811;
+  --popover: #FDF8EC;
+  --popover-foreground: #241811;
+  --primary: #611F28;
+  --primary-foreground: #FDF8EC;
+  --secondary: #3C5236;
+  --secondary-foreground: #FDF8EC;
+  --muted: #EEDFB6;
+  --muted-foreground: #3A2A1E;
+  --accent: #B08A34;
+  --accent-foreground: #241811;
+  --destructive: #4A171F;
+  --border: #CDAE6C;
+  --input: #E2CB92;
+  --ring: #7A2732;
+  --radius: 0.25rem;
+  --ink: #241811;
+  --burgundy-deep: #4A171F;
+  --burgundy-line: #7A2732;
+  --forest-deep: #2A3C26;
+  --brass-line: #B08A34;
+  --parchment-deep: #E2CB92;
+  --type-display: var(--font-cinzel), 'Cinzel', Georgia, serif;
+  --type-script: var(--font-tangerine), 'Tangerine', cursive;
+  --type-body: var(--font-cormorant), 'Cormorant Garamond', Georgia, serif;
+  --ease-engrave: cubic-bezier(0.19, 1, 0.22, 1);
+  --ease-settle: cubic-bezier(0.33, 1, 0.68, 1);
+  --duration-micro: 200ms;
+  --duration-base: 400ms;
+  --duration-reveal: 1100ms;
+  --duration-draw: 1800ms;
+}
+
+/* === COMPONENTS === */
+:root {
+  --hero-title-size: clamp(2.6rem, 7vw, 5.2rem);
+  --hero-title-leading: 1.0;
+  --label-frame-outer-border: #611F28;
+  --label-frame-inner-border: #B08A34;
+  --label-frame-panel-bg: #FDF8EC;
+  --button-primary-bg: #611F28;
+  --button-primary-fg: #FDF8EC;
+  --button-primary-hover-bg: #4A171F;
+  --button-ghost-border: #3C5236;
+  --card-border: #CDAE6C;
+  --card-shadow: 0 12px 30px -18px rgba(42, 24, 15, 0.4);
+}
